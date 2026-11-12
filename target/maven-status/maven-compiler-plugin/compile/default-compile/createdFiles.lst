@@ -1,0 +1,4 @@
+com\contactmanager\Contact.class
+com\contactmanager\Database.class
+com\contactmanager\ContactManagerApp.class
+com\contactmanager\ContactDAO.class

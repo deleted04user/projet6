@@ -1,0 +1,131 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 14px;
+    -fx-focus-color: #5458b3;
+    -fx-faint-focus-color: #5458b326;
+}
+
+.app-layout {
+    -fx-background-color: #eef1f8;
+    -fx-padding: 24px;
+}
+
+.panel {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 14px;
+    -fx-border-color: #dce1ed;
+    -fx-border-radius: 14px;
+    -fx-padding: 24px;
+}
+
+.form-panel {
+    -fx-background-color: #f9faff;
+}
+
+.label {
+    -fx-text-fill: #222941;
+}
+
+.app-title {
+    -fx-font-size: 27px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #26285c;
+}
+
+.section-title {
+    -fx-font-size: 23px;
+    -fx-font-weight: bold;
+}
+
+.field-label {
+    -fx-font-weight: bold;
+}
+
+.text-field, .combo-box {
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+    -fx-border-color: #bac2d6;
+    -fx-border-radius: 8px;
+    -fx-min-height: 42px;
+}
+
+.text-field {
+    -fx-padding: 8px 12px;
+    -fx-text-fill: #222941;
+    -fx-prompt-text-fill: #5b6479;
+}
+
+.combo-box > .list-cell {
+    -fx-padding: 8px 0 8px 12px;
+    -fx-text-fill: #222941;
+}
+
+.text-field:focused, .combo-box:focused, .button:focused, .table-view:focused {
+    -fx-border-color: -fx-focus-color;
+    -fx-border-width: 2px;
+    -fx-border-insets: -1px;
+}
+
+.button {
+    -fx-background-color: #e8eaf5;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-min-height: 42px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #303362;
+}
+
+.primary-button {
+    -fx-background-color: #3d408d;
+    -fx-text-fill: white;
+}
+
+.delete-button {
+    -fx-background-color: #f8e8ec;
+    -fx-text-fill: #8a3045;
+}
+
+.button:disabled {
+    -fx-opacity: 0.62;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+    -fx-border-color: #dce1ed;
+    -fx-border-radius: 8px;
+    -fx-padding: 1px;
+    -fx-fixed-cell-size: 40px;
+}
+
+.table-view .column-header-background,
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: #edf0f8;
+}
+
+.table-view .column-header-background {
+    -fx-background-radius: 7px 7px 0 0;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 42px;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent #dce1ed transparent;
+}
+
+.table-view .column-header .label, .table-view .table-cell {
+    -fx-alignment: center-left;
+    -fx-padding: 0 0 0 10px;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 13px;
+    -fx-text-fill: #383d5a;
+}
+
+.table-view .placeholder .label, .contact-count {
+    -fx-text-fill: #5b6479;
+}
